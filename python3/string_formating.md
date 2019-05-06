@@ -1,31 +1,31 @@
 # Python 2
 
-first = "eric"
+	first = "eric"
 
-last = "bower"
+	last = "bower"
 
-print("hello, %s %s" % (first, last))
+	print("hello, %s %s" % (first, last))
 
 # Python >= 2.6
 
-first = "eric"
+	first = "eric"
 
-last = "bower"
+	last = "bower"
 
-print("hello, {} {}".format(first, last))
+	print("hello, {} {}".format(first, last))
 
 # Python >= 3.6
 
-first = "eric"
+	first = "eric"
 
-last = "bower"
+	last = "bower"
 
-name = "ERIC BOWER"
+	name = "ERIC BOWER"
 
-print(f"hello, {first} {last})
+	print(f"hello, {first} {last})
 
-def to_lower(input):
+	def to_lower(input):
 
-	return input.lower()
+		return input.lower()
 
-print(f"{to_lower(name)} is now lower case")
+	print(f"{to_lower(name)} is now lower case")
