@@ -10,3 +10,6 @@ class Player:
     def hand(self,cards):
         self.hand.append(cards)
 
+    def remove_hand(self):
+        self.hand = []
+        return self.hand
